@@ -1,0 +1,172 @@
+body {
+    background-color: #9AE564;
+}
+
+
+.nav {
+    background-color: #77BA11;
+    width: 1000%;
+    margin: -20px  ;
+    height: 120px;
+    padding: 20px;
+    
+    
+    }
+
+
+.nav__li {
+    display: inline-block;
+    margin: 5px;
+    padding: 20px ;
+    border-radius: 10px;
+    
+
+
+}
+
+.nav__li:hover {
+    transition: 0.3s,ease-in-out 0.5s;
+    background-color: #E46713;
+    border-radius: 100px;
+    
+    
+    
+    
+}
+
+.especial:hover {
+    background-color: #198C2C;
+    
+
+    
+
+}
+
+.especial a:hover {
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+.nav__li a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 30px;
+    
+
+    
+    
+  }
+
+  
+
+
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(3,400px); /* 3 columnas de igual ancho */
+    grid-template-rows: repeat(1,400px);
+    gap: 50px; /* Espacio entre elementos */
+    margin:  100px 100px;
+    border-radius: 30px;
+    justify-content: center;
+    
+    
+       
+}
+
+
+
+
+
+
+.proyecto {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: transform 0.3s;
+    
+}
+
+.proyecto img {
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+}
+
+.informacion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#E46713 ;
+    color: white;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.3s, transform 0.3s;
+    text-align: center;
+    
+    
+}
+
+.info {
+    background-color: black;
+}
+
+.proyecto:hover img {
+    transition: 0.5s;
+    
+}
+
+.proyecto:hover .informacion {
+    opacity: 1;
+    transform: translateY(0);
+    
+}
+
+
+
+footer  {
+    background-color: #618000;
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    height: 70px;
+    width: 100%;
+    margin: -10px;
+    list-style: none;
+    
+  }
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+
+
+}
+
+.footer a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+  
+  
+
+
+  
+
+  p {
+    padding: 30px;
+    font-size: 17px;
+  }
