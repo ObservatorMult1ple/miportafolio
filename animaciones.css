@@ -29,16 +29,10 @@ body {
     background-color: #E46713;
     border-radius: 100px;
     
-    
-    
-    
 }
 
 .especial:hover {
     background-color: #198C2C;
-    
-
-    
 
 }
 
@@ -47,42 +41,24 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-
-
-
-
 .nav__li a {
     color: black;
     text-decoration: none;
     margin: 10px;
     font-size: 30px;
     
-
-    
-    
   }
 
   
-
-
-
 .proyectos-grid {
     display: grid;
-    grid-template-columns: repeat(3,400px); /* 3 columnas de igual ancho */
-    grid-template-rows: repeat(1,400px);
-    gap: 50px; /* Espacio entre elementos */
-    margin:  100px 100px;
-    border-radius: 30px;
-    justify-content: center;
-    
-    
-       
+    grid-template-columns: repeat(3,1fr); /* 3 columnas de igual ancho */
+    grid-template-rows: repeat(3,400px);
+    border-radius: 10px;
+    margin:  120px 100px;
+    gap: 50px;
+    justify-content: center;    
 }
-
-
-
-
-
 
 .proyecto {
     position: relative;
@@ -90,6 +66,8 @@ body {
     cursor: pointer;
     border-radius: 25px;
     transition: transform 0.3s;
+    
+    
     
 }
 
@@ -101,6 +79,8 @@ body {
     
     
 }
+
+
 
 .informacion {
     position: absolute;
@@ -118,9 +98,9 @@ body {
     
 }
 
-.info {
-    background-color: black;
-}
+
+
+
 
 .proyecto:hover img {
     transition: 0.5s;
